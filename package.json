@@ -1,0 +1,28 @@
+{
+  "name": "u-develop-it",
+  "version": "1.0.0",
+  "description": "In this project, I'll discuss CRUD, an acronym for the four basic operations of most databases: creating, reading, updating, and deleting records. The voting application will perform these operations on data about candidates, parties, and votes. Eventually, the voting API will expose these operations to users via Express.js routes. I'll use the MySQL Shell to connect to the MySQL server and create a database and a table. Then, in the MySQL Shell, I'll execute SQL commands to handle the CRUD operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nehailaa/u-develop-it.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nehailaa/u-develop-it/issues"
+  },
+  "homepage": "https://github.com/Nehailaa/u-develop-it#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
