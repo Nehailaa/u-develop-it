@@ -17,6 +17,7 @@ app.use((req, res) => {
   res.status(404).end();
 });
 
+
 // Start server after DB connection
 db.connect(err => {
   if (err) throw err;
@@ -25,4 +26,3 @@ db.connect(err => {
     console.log(`Server running on port ${PORT}`);
   });
 });
-
